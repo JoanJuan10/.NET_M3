@@ -31,11 +31,25 @@ namespace EjercicioM3
 
             string[] arrayCiutats = { string1, string2, string3, string4, string5, string6 };
             Array.Sort(arrayCiutats);
+
             Console.WriteLine("ORDENATS:");
             for (int i = 0; i < arrayCiutats.Length; i++)
             {
                 Console.WriteLine(arrayCiutats[i]);
             }
+
+            string[] arrayCiutatsModificades = new string[arrayCiutats.Length];
+            for (int i = 0; i < arrayCiutats.Length; i++)
+            {
+                arrayCiutatsModificades[i] = arrayCiutats[i].Replace('a','4');
+            }
+
+            Console.WriteLine("MODIFICATS:");
+            for (int i = 0; i < arrayCiutatsModificades.Length; i++)
+            {
+                Console.WriteLine(arrayCiutatsModificades[i]);
+            }
+
 
 
         }
