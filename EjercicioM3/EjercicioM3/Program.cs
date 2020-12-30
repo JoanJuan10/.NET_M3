@@ -6,6 +6,11 @@ namespace EjercicioM3
     {
         static void Main(string[] args)
         {
+            Milestone2();
+
+        }
+        static void Milestone1 ()
+        {
             string string1, string2, string3, string4, string5, string6;
 
             Console.WriteLine("Escriu una ciutat");
@@ -91,7 +96,6 @@ namespace EjercicioM3
             MostrarCiutatReves(ciutat4);
             MostrarCiutatReves(ciutat5);
             MostrarCiutatReves(ciutat6);
-
         }
         static void MostrarCiutatReves (char[] ciutat)
         {
@@ -100,6 +104,49 @@ namespace EjercicioM3
                 Console.Write(ciutat[i]);
             }
             Console.WriteLine();
+        }
+        static void Milestone2 ()
+        {
+            int[,] alumnes = new int[5,3];
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.WriteLine("Introdueix la nota {0} del alumne {1}", (j + 1), (i + 1));
+                    int nota = Convert.ToInt32(Console.ReadLine());
+                    if (nota < 0)
+                    {
+                        Console.WriteLine("La nota introduida es massa petita, cambiat a 0");
+                        nota = 0;
+                    }
+                    else if (nota > 10)
+                    {
+                        Console.WriteLine("La nota introduida es massa gran, cambiat a 10");
+                        nota = 10;
+                    }
+                    alumnes[i,j] = nota;
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                int mitjana = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    mitjana += alumnes[i,j];
+                }
+                mitjana /= 3;
+                Console.WriteLine("Alumne {0}:", i);
+                if (mitjana < 5)
+                {
+                    Console.WriteLine("SUSPES!");
+                }
+                else
+                {
+                    Console.WriteLine("APROBAT!");
+                }
+            }
+
         }
     }
 }
