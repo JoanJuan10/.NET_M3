@@ -6,7 +6,7 @@ namespace EjercicioM3
     {
         static void Main(string[] args)
         {
-            Milestone2();
+            Milestone3();
 
         }
         static void Milestone1 ()
@@ -146,7 +146,26 @@ namespace EjercicioM3
                     Console.WriteLine("APROBAT!");
                 }
             }
+        }
+        static void Milestone3()
+        {
+            Console.WriteLine("Numero al qual arribar: ");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            int numeroFibonachi = 1;
+            int num1 = 0;
+            int num2 = 1;
+            Console.Write("Fibonachi: 0,1,");
 
+            while (numeroFibonachi < numero)
+            {
+                numeroFibonachi = num1 + num2;
+                num1 = num2;
+                num2 = numeroFibonachi;
+                if (numeroFibonachi < numero)
+                {
+                    Console.Write(numeroFibonachi + ",");
+                }
+            }
         }
     }
 }
