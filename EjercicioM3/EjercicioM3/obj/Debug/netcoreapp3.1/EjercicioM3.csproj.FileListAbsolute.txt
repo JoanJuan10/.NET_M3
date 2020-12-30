@@ -1,0 +1,13 @@
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.exe
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.deps.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.runtimeconfig.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.runtimeconfig.dev.json
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\bin\Debug\netcoreapp3.1\EjercicioM3.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.csprojAssemblyReference.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.AssemblyInfoInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.AssemblyInfo.cs
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.csproj.CoreCompileInputs.cache
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.dll
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.pdb
+C:\Users\Joan\source\repos\JoanJuan10\.NET_M3\EjercicioM3\EjercicioM3\obj\Debug\netcoreapp3.1\EjercicioM3.genruntimeconfig.cache
