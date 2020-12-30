@@ -41,17 +41,65 @@ namespace EjercicioM3
             string[] arrayCiutatsModificades = new string[arrayCiutats.Length];
             for (int i = 0; i < arrayCiutats.Length; i++)
             {
-                arrayCiutatsModificades[i] = arrayCiutats[i].Replace('a','4');
+                arrayCiutatsModificades[i] = arrayCiutats[i].Replace('a', '4');
             }
 
             Console.WriteLine("MODIFICATS:");
             for (int i = 0; i < arrayCiutatsModificades.Length; i++)
             {
                 Console.WriteLine(arrayCiutatsModificades[i]);
+
             }
+            char[] ciutat1 = new char[arrayCiutats[0].Length];
+            char[] ciutat2 = new char[arrayCiutats[1].Length];
+            char[] ciutat3 = new char[arrayCiutats[2].Length];
+            char[] ciutat4 = new char[arrayCiutats[3].Length];
+            char[] ciutat5 = new char[arrayCiutats[4].Length];
+            char[] ciutat6 = new char[arrayCiutats[5].Length];
 
+            for (int i = 0; i < arrayCiutats.Length; i++)
+            {
+                for (int j = 0; j < arrayCiutats[i].Length; j++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            ciutat1[j] = arrayCiutats[i][j];
+                            break;
+                        case 1:
+                            ciutat2[j] = arrayCiutats[i][j];
+                            break;
+                        case 2:
+                            ciutat3[j] = arrayCiutats[i][j];
+                            break;
+                        case 3:
+                            ciutat4[j] = arrayCiutats[i][j];
+                            break;
+                        case 4:
+                            ciutat5[j] = arrayCiutats[i][j];
+                            break;
+                        case 5:
+                            ciutat6[j] = arrayCiutats[i][j];
+                            break;
+                    }
+                }
+            }
+            Console.WriteLine("AL REVES:");
+            MostrarCiutatReves(ciutat1);
+            MostrarCiutatReves(ciutat2);
+            MostrarCiutatReves(ciutat3);
+            MostrarCiutatReves(ciutat4);
+            MostrarCiutatReves(ciutat5);
+            MostrarCiutatReves(ciutat6);
 
-
+        }
+        static void MostrarCiutatReves (char[] ciutat)
+        {
+            for (int i = ciutat.Length - 1; i >= 0; i--)
+            {
+                Console.Write(ciutat[i]);
+            }
+            Console.WriteLine();
         }
     }
 }
