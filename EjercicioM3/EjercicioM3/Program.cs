@@ -29,6 +29,14 @@ namespace EjercicioM3
             Console.WriteLine(string5);
             Console.WriteLine(string6);
 
+            string[] arrayCiutats = { string1, string2, string3, string4, string5, string6 };
+            Array.Sort(arrayCiutats);
+            Console.WriteLine("ORDENATS:");
+            for (int i = 0; i < arrayCiutats.Length; i++)
+            {
+                Console.WriteLine(arrayCiutats[i]);
+            }
+
 
         }
     }
